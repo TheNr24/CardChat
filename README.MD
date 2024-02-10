@@ -1,6 +1,6 @@
 # CardChat for M5Cardputer
 
-CardChat connects OpenAI's GPT with the M5Cardputer, offering a straightforward way for anyone to experiment with AI conversations on this compact device.
+CardChat connects your M5Stack Card Computer with OpenAI's GPT, offering a straightforward way for anyone to experiment with AI conversations on this compact device.
 
 ## Setup
 
@@ -14,13 +14,13 @@ CardChat connects OpenAI's GPT with the M5Cardputer, offering a straightforward 
 
     ``` git clone https://github.com/your-username/CardChat.git ```
 
-2. Rename `Config.example.h` to `Config.h` and update it with your WiFi and OpenAI API details.
+2. Rename `ConfigTemplate.h` to `Config.h` and update it with your WiFi and OpenAI API details.
 3. Open `CardChat.ino` in the Arduino IDE, connect your M5Cardputer, and upload the sketch.
 
 ## Features
 
-- Engage with OpenAI's GPT model through typed queries.
-- Planned: Scroll through chat history, real-time response streaming, use of latest GPT models, TTS and STT, and configurations stored on an SD card.
+- Engage with OpenAI's GPT model by typing your queries using the CardPuter's keyboard (a Voice to Text feature is in the works).
+- Planned features: Scroll through chat history, real-time response streaming, use of latest GPT models, ASR using Whisper, TTS using e.g. ElevenLabs, and settings stored in a config file on the SD card.
 
 ## Contribute
 
