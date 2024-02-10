@@ -1,0 +1,5 @@
+# Ignore Config.h files no matter where they are
+**/Config.h
+
+# Ignore the SplitFiles folder
+SplitFiles/
